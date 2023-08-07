@@ -45,6 +45,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(Tags.Blocks.NEEDS_NETHERITE_TOOL)
                 .add(ModBlocks.END_STONE_SAPPHIRE_ORE.get());
 
+        this.tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL)
+                .add(ModBlocks.SOUND_BLOCK.get());
+
         this.tag(BlockTags.FENCES)
                 .add(ModBlocks.SAPPHIRE_FENCE.get());
         this.tag(BlockTags.FENCE_GATES)
