@@ -1,4 +1,4 @@
-// 1.20.1	2023-07-28T20:22:56.9645761	Block States: tutorialmod
+// 1.20.1	2023-08-23T16:37:35.3724177	Block States: tutorialmod
 a3ad172be3e203ff6840db063558f809a86ca15a assets/tutorialmod/blockstates/deepslate_sapphire_ore.json
 890efea75d7398469e0d7d5704472303c35fae62 assets/tutorialmod/blockstates/end_stone_sapphire_ore.json
 0198f629d0db6eb40ebd91067bbe631626116b54 assets/tutorialmod/blockstates/nether_sapphire_ore.json
@@ -15,6 +15,7 @@ f0189f740d5f66bdbf03bf833b7f89a0439615f8 assets/tutorialmod/blockstates/sapphire
 2947fb963b5b0a276a97b1ad8e27a8aa20543287 assets/tutorialmod/blockstates/sapphire_trapdoor.json
 2af36ae7d141d045a91f520bcc8da0c216bf2ccb assets/tutorialmod/blockstates/sapphire_wall.json
 7e439f9c39ea91be588ddc78cf4cd903b5b9cb70 assets/tutorialmod/blockstates/sound_block.json
+e7f53e64f659401806aad6003e5356aac69c0a08 assets/tutorialmod/blockstates/strawberry_crop.json
 f98cb6175399c28ce46a77b4e68664303bc2c3d3 assets/tutorialmod/models/block/deepslate_sapphire_ore.json
 0c40efccb23d85e5bdf98a041a64a110359aed7c assets/tutorialmod/models/block/end_stone_sapphire_ore.json
 5df59719eaf8bf42bcfeee7e2154e96a044c2703 assets/tutorialmod/models/block/nether_sapphire_ore.json
@@ -51,6 +52,12 @@ f53d3aa6811844dc2b2f26f52c2837a281c173fe assets/tutorialmod/models/block/sapphir
 8989ec98ff5a4eeda766b3083491f2f77b06ea3f assets/tutorialmod/models/block/sapphire_wall_side.json
 c0ed7975ed86cd5146c5e7393fca478cd26e7228 assets/tutorialmod/models/block/sapphire_wall_side_tall.json
 dac8730911a1737e4cdd2e70cfc8d32b0b0ba457 assets/tutorialmod/models/block/sound_block.json
+83b2f2225bdf3385193484a054e31ec7416ed3ed assets/tutorialmod/models/block/strawberry_stage0.json
+0198da8cd867092aa069ff09f84518eff09e9259 assets/tutorialmod/models/block/strawberry_stage1.json
+b6bd6b99d1b444b7f23c3ff006f58fe5db405ca1 assets/tutorialmod/models/block/strawberry_stage2.json
+4bea81641ddb82a0a78e324c05ddb794ffcd8cb4 assets/tutorialmod/models/block/strawberry_stage3.json
+d980ad62eb5f6b15090ea6557bc28483ad68f0ff assets/tutorialmod/models/block/strawberry_stage4.json
+b14b9dd2aa2d96cbbb4d20f9d0741c1bf4476786 assets/tutorialmod/models/block/strawberry_stage5.json
 251495c94fbf35dd43cd773e6cf31533a8b72f09 assets/tutorialmod/models/item/deepslate_sapphire_ore.json
 bf5cdde3dfa3effdde9c4358ecb01c39922d7945 assets/tutorialmod/models/item/end_stone_sapphire_ore.json
 81ecae58cc575e9ce9d7f21881bbccb6bbfb4432 assets/tutorialmod/models/item/nether_sapphire_ore.json
