@@ -7,6 +7,7 @@ import net.kaupenjoe.tutorialmod.block.custom.StrawberryCropBlock;
 import net.kaupenjoe.tutorialmod.item.ModItems;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.util.valueproviders.UniformInt;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.*;
@@ -77,6 +78,12 @@ public class ModBlocks {
             () -> new CornCropBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT).noOcclusion().noCollission()));
 
 
+    public static final RegistryObject<Block> CATMINT = registerBlock("catmint",
+            () -> new FlowerBlock(() -> MobEffects.LUCK, 5,
+                    BlockBehaviour.Properties.copy(Blocks.ALLIUM).noOcclusion().noCollission()));
+    public static final RegistryObject<Block> POTTED_CATMINT = BLOCKS.register("potted_catmint",
+            () -> new FlowerPotBlock(() -> ((FlowerPotBlock) Blocks.FLOWER_POT), ModBlocks.CATMINT,
+                    BlockBehaviour.Properties.copy(Blocks.POTTED_ALLIUM).noOcclusion()));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

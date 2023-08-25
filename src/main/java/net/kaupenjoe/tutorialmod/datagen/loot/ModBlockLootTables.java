@@ -78,6 +78,8 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.CORN_CROP.get(), createCropDrops(ModBlocks.CORN_CROP.get(), ModItems.CORN.get(),
                 ModItems.CORN_SEEDS.get(), lootitemcondition$builder2));
 
+        this.dropSelf(ModBlocks.CATMINT.get());
+        this.add(ModBlocks.POTTED_CATMINT.get(), createPotFlowerItemTable(ModBlocks.CATMINT.get()));
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {
