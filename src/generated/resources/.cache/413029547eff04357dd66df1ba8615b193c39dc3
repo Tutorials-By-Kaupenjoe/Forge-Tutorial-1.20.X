@@ -1,4 +1,5 @@
-// 1.20.1	2023-08-23T16:37:35.3724177	Block States: tutorialmod
+// 1.20.1	2023-08-25T18:43:33.7666559	Block States: tutorialmod
+d537bf85846bd7eeffa314408c867cc1a7d531d5 assets/tutorialmod/blockstates/corn_crop.json
 a3ad172be3e203ff6840db063558f809a86ca15a assets/tutorialmod/blockstates/deepslate_sapphire_ore.json
 890efea75d7398469e0d7d5704472303c35fae62 assets/tutorialmod/blockstates/end_stone_sapphire_ore.json
 0198f629d0db6eb40ebd91067bbe631626116b54 assets/tutorialmod/blockstates/nether_sapphire_ore.json
@@ -16,6 +17,15 @@ f0189f740d5f66bdbf03bf833b7f89a0439615f8 assets/tutorialmod/blockstates/sapphire
 2af36ae7d141d045a91f520bcc8da0c216bf2ccb assets/tutorialmod/blockstates/sapphire_wall.json
 7e439f9c39ea91be588ddc78cf4cd903b5b9cb70 assets/tutorialmod/blockstates/sound_block.json
 e7f53e64f659401806aad6003e5356aac69c0a08 assets/tutorialmod/blockstates/strawberry_crop.json
+1052548f03dcd89a42fba5f0b6255dbb94ccc937 assets/tutorialmod/models/block/corn_stage_0.json
+2c3b6838a486dcc1685dc9909d0bd7dbcdadd587 assets/tutorialmod/models/block/corn_stage_1.json
+823aa05ad0633dc6fa1f8eb719f161a3d6ade1a1 assets/tutorialmod/models/block/corn_stage_2.json
+22ff96e0e02068129316cc59bd124d3aeea7d740 assets/tutorialmod/models/block/corn_stage_3.json
+291d7e80fcb45f37492431d833079488c62285ce assets/tutorialmod/models/block/corn_stage_4.json
+c959ba97653c4e01203e09e175194b10797d4054 assets/tutorialmod/models/block/corn_stage_5.json
+cf760df02741eab6d508ac36d3ffecdef636ce0a assets/tutorialmod/models/block/corn_stage_6.json
+3eda0733674b5c29414cb9b19924b13f9e7b4ffb assets/tutorialmod/models/block/corn_stage_7.json
+55ed2caa3126b780e9a064f6a73f009a802e85fb assets/tutorialmod/models/block/corn_stage_8.json
 f98cb6175399c28ce46a77b4e68664303bc2c3d3 assets/tutorialmod/models/block/deepslate_sapphire_ore.json
 0c40efccb23d85e5bdf98a041a64a110359aed7c assets/tutorialmod/models/block/end_stone_sapphire_ore.json
 5df59719eaf8bf42bcfeee7e2154e96a044c2703 assets/tutorialmod/models/block/nether_sapphire_ore.json

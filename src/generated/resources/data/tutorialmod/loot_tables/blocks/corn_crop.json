@@ -1,0 +1,93 @@
+{
+  "type": "minecraft:block",
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ],
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:any_of",
+                  "terms": [
+                    {
+                      "block": "tutorialmod:corn_crop",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "age": "7"
+                      }
+                    },
+                    {
+                      "block": "tutorialmod:corn_crop",
+                      "condition": "minecraft:block_state_property",
+                      "properties": {
+                        "age": "8"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "name": "tutorialmod:corn"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "tutorialmod:corn_seeds"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "block": "tutorialmod:corn_crop",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "7"
+              }
+            },
+            {
+              "block": "tutorialmod:corn_crop",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "8"
+              }
+            }
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:binomial_with_bonus_count",
+              "function": "minecraft:apply_bonus",
+              "parameters": {
+                "extra": 3,
+                "probability": 0.5714286
+              }
+            }
+          ],
+          "name": "tutorialmod:corn_seeds"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "tutorialmod:blocks/corn_crop"
+}
