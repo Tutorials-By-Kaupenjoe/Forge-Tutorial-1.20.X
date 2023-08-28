@@ -1,0 +1,38 @@
+{
+  "metal_detector_found_ore": {
+    "subtitles": "sounds.tutorialmod.metal_detector_found_ore",
+    "sounds": [
+      "tutorialmod:metal_detector_found_ore"
+    ]
+  },
+  "sound_block_break": {
+    "subtitle": "sounds.tutorialmod.sound_block_break",
+    "sounds": [
+      "tutorialmod:sound_block_break"
+    ]
+  },
+  "sound_block_step": {
+    "subtitle": "sounds.tutorialmod.sound_block_step",
+    "sounds": [
+      "tutorialmod:sound_block_step"
+    ]
+  },
+  "sound_block_place": {
+    "subtitle": "sounds.tutorialmod.sound_block_place",
+    "sounds": [
+      "tutorialmod:sound_block_place"
+    ]
+  },
+  "sound_block_hit": {
+    "subtitle": "sounds.tutorialmod.sound_block_hit",
+    "sounds": [
+      "tutorialmod:sound_block_hit"
+    ]
+  },
+  "sound_block_fall": {
+    "subtitle": "sounds.tutorialmod.sound_block_fall",
+    "sounds": [
+      "tutorialmod:sound_block_fall"
+    ]
+  }
+}
