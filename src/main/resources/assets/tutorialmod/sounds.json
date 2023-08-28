@@ -34,5 +34,13 @@
     "sounds": [
       "tutorialmod:sound_block_fall"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "tutorialmod:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }

@@ -46,6 +46,8 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.CORN.get());
                         pOutput.accept(ModItems.CORN_SEEDS.get());
 
+                        pOutput.accept(ModItems.BAR_BRAWL_MUSIC_DISC.get());
+
                         pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
 
