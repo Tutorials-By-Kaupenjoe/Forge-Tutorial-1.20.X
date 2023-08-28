@@ -47,6 +47,8 @@
 
   "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground!",
 
+  "entity.minecraft.villager.tutorialmod.soundmaster": "Sound Master",
+
 
   "creativetab.tutorial_tab": "Sapphire Tutorial Tab"
 }
