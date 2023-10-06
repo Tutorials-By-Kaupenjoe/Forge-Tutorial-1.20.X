@@ -48,6 +48,8 @@
   
   "block.tutorialmod.catmint": "Catmint",
 
+  "block.tutorialmod.gem_polishing_station": "Gem Polishing Station",
+
   "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground!",
 
   "entity.minecraft.villager.tutorialmod.soundmaster": "Sound Master",

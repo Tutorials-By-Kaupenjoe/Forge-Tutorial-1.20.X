@@ -1,8 +1,9 @@
-// 1.20.1	2023-08-25T20:00:29.1439601	Block States: tutorialmod
+// 1.20.1	2023-10-06T16:01:04.4071152	Block States: tutorialmod
 4f6f6f43eb03fe4d9e5ce223f245812e0d7eae93 assets/tutorialmod/blockstates/catmint.json
 d537bf85846bd7eeffa314408c867cc1a7d531d5 assets/tutorialmod/blockstates/corn_crop.json
 a3ad172be3e203ff6840db063558f809a86ca15a assets/tutorialmod/blockstates/deepslate_sapphire_ore.json
 890efea75d7398469e0d7d5704472303c35fae62 assets/tutorialmod/blockstates/end_stone_sapphire_ore.json
+ff720ea0aea021144b8557786f6e7f9dead2fd78 assets/tutorialmod/blockstates/gem_polishing_station.json
 0198f629d0db6eb40ebd91067bbe631626116b54 assets/tutorialmod/blockstates/nether_sapphire_ore.json
 55ae2b8c248ffe83a87a26b6c0f87c784f9049db assets/tutorialmod/blockstates/potted_catmint.json
 2f46112fe9e6610ea4c37e87e511da1849b54274 assets/tutorialmod/blockstates/raw_sapphire_block.json
@@ -75,6 +76,7 @@ b14b9dd2aa2d96cbbb4d20f9d0741c1bf4476786 assets/tutorialmod/models/block/strawbe
 71616f74a5e0922f50c9869941f63040b82c0499 assets/tutorialmod/models/item/catmint.json
 251495c94fbf35dd43cd773e6cf31533a8b72f09 assets/tutorialmod/models/item/deepslate_sapphire_ore.json
 bf5cdde3dfa3effdde9c4358ecb01c39922d7945 assets/tutorialmod/models/item/end_stone_sapphire_ore.json
+c6fe90ee84600fb9c1f42a398459a0d8b38fe198 assets/tutorialmod/models/item/gem_polishing_station.json
 81ecae58cc575e9ce9d7f21881bbccb6bbfb4432 assets/tutorialmod/models/item/nether_sapphire_ore.json
 1a7f76b967a6270a0443871f08ca1a655740a97d assets/tutorialmod/models/item/potted_catmint.json
 a7f864f8f8c67b25b34627c0dd8357e96b5d5c79 assets/tutorialmod/models/item/raw_sapphire_block.json
