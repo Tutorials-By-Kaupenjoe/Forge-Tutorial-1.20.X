@@ -8,6 +8,7 @@ import net.kaupenjoe.tutorialmod.entity.client.RhinoRenderer;
 import net.kaupenjoe.tutorialmod.item.ModCreativeModTabs;
 import net.kaupenjoe.tutorialmod.item.ModItems;
 import net.kaupenjoe.tutorialmod.loot.ModLootModifiers;
+import net.kaupenjoe.tutorialmod.recipe.ModRecipes;
 import net.kaupenjoe.tutorialmod.screen.GemPolishingStationScreen;
 import net.kaupenjoe.tutorialmod.screen.ModMenuTypes;
 import net.kaupenjoe.tutorialmod.sound.ModSounds;
@@ -52,6 +53,8 @@ public class TutorialMod {
 
         ModBlockEntities.register(modEventBus);
         ModMenuTypes.register(modEventBus);
+
+        ModRecipes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
