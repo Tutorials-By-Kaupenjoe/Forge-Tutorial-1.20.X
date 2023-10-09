@@ -50,6 +50,14 @@
 
   "block.tutorialmod.gem_polishing_station": "Gem Polishing Station",
 
+  "block.tutorialmod.pine_log": "Pine Log",
+  "block.tutorialmod.pine_planks": "Pine Planks",
+  "block.tutorialmod.pine_wood": "Pine Wood",
+  "block.tutorialmod.stripped_pine_log": "Stripped Pine Log",
+  "block.tutorialmod.stripped_pine_wood": "Stripped Pine Wood",
+  "block.tutorialmod.pine_leaves": "Pine Leaves",
+
+
   "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground!",
 
   "entity.minecraft.villager.tutorialmod.soundmaster": "Sound Master",
