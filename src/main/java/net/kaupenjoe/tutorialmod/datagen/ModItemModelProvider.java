@@ -82,6 +82,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleBlockItemBlockTexture(ModBlocks.CATMINT);
 
         withExistingParent(ModItems.RHINO_SPANW_EGG.getId().getPath(), mcLoc("item/template_spawn_egg"));
+
+        simpleItem(ModItems.PINE_SIGN);
+        simpleItem(ModItems.PINE_HANGING_SIGN);
     }
 
     // Shoutout to El_Redstoniano for making this

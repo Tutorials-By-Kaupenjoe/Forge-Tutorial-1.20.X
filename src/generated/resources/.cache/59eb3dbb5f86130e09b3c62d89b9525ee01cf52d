@@ -1,13 +1,17 @@
-// 1.20.1	2023-10-09T09:11:10.9766863	Loot Tables
+// 1.20.1	2023-10-26T18:19:04.2302995	Loot Tables
 a5308914890f4fbc6d39248caa834f368767be60 data/tutorialmod/loot_tables/blocks/catmint.json
 6c9ebf0160580ee21535fe3b1a2a5cd808cacb89 data/tutorialmod/loot_tables/blocks/corn_crop.json
 3655045aeb4e2ae62e9069b0db07927965a12389 data/tutorialmod/loot_tables/blocks/deepslate_sapphire_ore.json
 629bc7af98fd6a08d902f9c3e46896fc09101f43 data/tutorialmod/loot_tables/blocks/end_stone_sapphire_ore.json
 ae181fa3b2781be60d3127b43d33111085e53d7d data/tutorialmod/loot_tables/blocks/gem_polishing_station.json
 c615daffa6bb4a20fd0f4d36534331bdbeff2746 data/tutorialmod/loot_tables/blocks/nether_sapphire_ore.json
+5f94b65dcbf37334c21f047aeb09ef79fec31527 data/tutorialmod/loot_tables/blocks/pine_hanging_sign.json
 abec125a87dc8cb635c88e4de835279131a17269 data/tutorialmod/loot_tables/blocks/pine_leaves.json
 57ab8e1b21c0ed7823cb47210e9090f0e37ffd1a data/tutorialmod/loot_tables/blocks/pine_log.json
 5e3fbaa8cb61660404a2a4449ab965d1c7940aa2 data/tutorialmod/loot_tables/blocks/pine_planks.json
+77451c5f7832bb7f84de7dde5c63e7b12166b7ee data/tutorialmod/loot_tables/blocks/pine_sign.json
+fb237c9790deb10ab0a5451a29e59a845a03cc05 data/tutorialmod/loot_tables/blocks/pine_wall_hanging_sign.json
+c4b29231ba536f986ca20b0258504d012b6be167 data/tutorialmod/loot_tables/blocks/pine_wall_sign.json
 0203579282aad7eb6c08abcf49145eec1bc33914 data/tutorialmod/loot_tables/blocks/pine_wood.json
 64ba5568715cb39bbac17bf9a847cf65f79bec13 data/tutorialmod/loot_tables/blocks/potted_catmint.json
 81e9322ae4c5141fd110a8f87cc92d7af008fd1e data/tutorialmod/loot_tables/blocks/raw_sapphire_block.json

@@ -57,6 +57,8 @@
   "block.tutorialmod.stripped_pine_wood": "Stripped Pine Wood",
   "block.tutorialmod.pine_leaves": "Pine Leaves",
 
+  "block.tutorialmod.pine_sign": "Pine Sign",
+  "block.tutorialmod.pine_hanging_sign": "Pine Hanging Sign",
 
   "tooltip.tutorialmod.metal_detector.tooltip": "Finds valuables underground!",
 
