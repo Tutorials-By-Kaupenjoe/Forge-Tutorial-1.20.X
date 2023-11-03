@@ -88,6 +88,8 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.PINE_BOAT);
         simpleItem(ModItems.PINE_CHEST_BOAT);
+
+        simpleItem(ModItems.DICE);
     }
 
     // Shoutout to El_Redstoniano for making this
