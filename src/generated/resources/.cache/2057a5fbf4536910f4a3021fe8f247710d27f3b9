@@ -1,4 +1,4 @@
-// 1.20.1	2023-11-03T14:02:05.8529024	Item Models: tutorialmod
+// 1.20.1	2023-11-06T18:06:15.8639603	Item Models: tutorialmod
 f746b64540daf2ab6302b3ec01a78490c48fc10b assets/tutorialmod/models/item/bar_brawl_music_disc.json
 d3e9cad00ae44c9319dfbb411667eb4a09a63e57 assets/tutorialmod/models/item/catmint.json
 6126e26da373f9113d9e9be875b14a0d13857444 assets/tutorialmod/models/item/corn.json
@@ -9,6 +9,7 @@ d07710d2ac53c1f602f0c1f40f9a7d42bdb1092b assets/tutorialmod/models/item/pine_boa
 0e6c1cfbeb70a4ffd5b097ec1a6562763b8aa577 assets/tutorialmod/models/item/pine_chest_boat.json
 d56de8e6898d1c12a15eca045badafe1947aa387 assets/tutorialmod/models/item/pine_cone.json
 cc52097289735fa3c312f004171f0d07f77ba56d assets/tutorialmod/models/item/pine_hanging_sign.json
+4aad615a7bd676201b4db5780432359b04ecd639 assets/tutorialmod/models/item/pine_sapling.json
 b564249959d6cdff702afd910fd5e76553f9fc06 assets/tutorialmod/models/item/pine_sign.json
 d24305376f58c1ef118279a5c8f5b087a07b1d47 assets/tutorialmod/models/item/raw_sapphire.json
 63ec6c618a3a23eab4cab9c52d7d3250de9b516e assets/tutorialmod/models/item/rhino_spawn_egg.json
