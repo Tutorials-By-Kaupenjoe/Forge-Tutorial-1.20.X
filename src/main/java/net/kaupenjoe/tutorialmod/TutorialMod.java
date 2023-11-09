@@ -15,6 +15,7 @@ import net.kaupenjoe.tutorialmod.screen.ModMenuTypes;
 import net.kaupenjoe.tutorialmod.sound.ModSounds;
 import net.kaupenjoe.tutorialmod.util.ModWoodTypes;
 import net.kaupenjoe.tutorialmod.villager.ModVillagers;
+import net.kaupenjoe.tutorialmod.worldgen.tree.ModTrunkPlacerTypes;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.client.renderer.Sheets;
 import net.minecraft.client.renderer.entity.EntityRenderer;
@@ -60,6 +61,7 @@ public class TutorialMod {
         ModMenuTypes.register(modEventBus);
 
         ModRecipes.register(modEventBus);
+        ModTrunkPlacerTypes.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

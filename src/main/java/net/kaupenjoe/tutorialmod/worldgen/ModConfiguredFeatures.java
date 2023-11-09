@@ -2,6 +2,7 @@ package net.kaupenjoe.tutorialmod.worldgen;
 
 import net.kaupenjoe.tutorialmod.TutorialMod;
 import net.kaupenjoe.tutorialmod.block.ModBlocks;
+import net.kaupenjoe.tutorialmod.worldgen.tree.custom.PineTrunkPlacer;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstapContext;
 import net.minecraft.resources.ResourceKey;
@@ -49,7 +50,7 @@ public class ModConfiguredFeatures {
 
         register(context, PINE_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(ModBlocks.PINE_LOG.get()),
-                new StraightTrunkPlacer(5, 4, 3),
+                new PineTrunkPlacer(5, 4, 3),
 
                 BlockStateProvider.simple(ModBlocks.PINE_LEAVES.get()),
                 new BlobFoliagePlacer(ConstantInt.of(3), ConstantInt.of(2), 3),
