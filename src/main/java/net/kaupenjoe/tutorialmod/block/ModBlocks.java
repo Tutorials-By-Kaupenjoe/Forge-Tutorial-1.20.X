@@ -157,6 +157,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> PINE_SAPLING = registerBlock("pine_sapling",
             () -> new SaplingBlock(new PineTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
 
+    public static final RegistryObject<Block> MOD_PORTAL = registerBlock("mod_portal",
+            () -> new ModPortalBlock(BlockBehaviour.Properties.copy(Blocks.STONE).noLootTable().noOcclusion().noCollission()));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

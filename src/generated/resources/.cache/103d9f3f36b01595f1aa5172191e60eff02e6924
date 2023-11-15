@@ -1,4 +1,6 @@
-// 1.20.1	2023-11-15T18:58:01.8034533	Registries
+// 1.20.1	2023-11-15T19:29:59.7609744	Registries
+26aeb220454dd70d2b1bb9c817a822697fb41c32 data/tutorialmod/dimension/kaupendim.json
+e241e971aacde6f4d0236c622c99d6c9caeb981e data/tutorialmod/dimension_type/kaupendim_type.json
 51c9eccab97082d42b64f544d2177b5d81ad7822 data/tutorialmod/forge/biome_modifier/add_end_sapphire_ore.json
 64776d3eaf666ec57a7e039d2d4b5801202f71c5 data/tutorialmod/forge/biome_modifier/add_nether_sapphire_ore.json
 6e10223d8ca98f02feea2da07585014b7a38b1e4 data/tutorialmod/forge/biome_modifier/add_sapphire_ore.json
