@@ -3,11 +3,12 @@ package net.kaupenjoe.tutorialmod.sound;
 import net.kaupenjoe.tutorialmod.TutorialMod;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraftforge.common.util.ForgeSoundType;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.common.util.DeferredSoundType;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.ForgeRegistries;
+import net.neoforged.neoforge.registries.RegistryObject;
+
 
 public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
@@ -24,7 +25,7 @@ public class ModSounds {
     public static final RegistryObject<SoundEvent> BAR_BRAWL = registerSoundEvents("bar_brawl");
 
 
-    public static final ForgeSoundType SOUND_BLOCK_SOUNDS = new ForgeSoundType(1f, 1f,
+    public static final DeferredSoundType SOUND_BLOCK_SOUNDS = new DeferredSoundType(1f, 1f,
             ModSounds.SOUND_BLOCK_BREAK, ModSounds.SOUND_BLOCK_STEP, ModSounds.SOUND_BLOCK_PLACE,
             ModSounds.SOUND_BLOCK_HIT, ModSounds.SOUND_BLOCK_FALL);
 

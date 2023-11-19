@@ -1,0 +1,10 @@
+{
+  "type": "tutorialmod:add_item",
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/creeper"
+    }
+  ],
+  "item": "tutorialmod:pine_cone"
+}

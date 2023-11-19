@@ -1,0 +1,9 @@
+{
+  "entries": [
+    "tutorialmod:pine_cone_from_grass",
+    "tutorialmod:pine_cone_from_creeper",
+    "tutorialmod:metal_detector_from_suspicious_sand",
+    "tutorialmod:metal_detector_from_jungle_temples"
+  ],
+  "replace": false
+}

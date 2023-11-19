@@ -17,7 +17,8 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
-import net.minecraftforge.common.IPlantable;
+import net.neoforged.neoforge.common.IPlantable;
+
 
 public class CornCropBlock extends CropBlock {
     public static final int FIRST_STAGE_MAX_AGE = 7;
@@ -53,7 +54,7 @@ public class CornCropBlock extends CropBlock {
             if (currentAge < this.getMaxAge()) {
                 float growthSpeed = getGrowthSpeed(this, pLevel, pPos);
 
-                if (net.minecraftforge.common.ForgeHooks.onCropsGrowPre(pLevel, pPos, pState, pRandom.nextInt((int)(25.0F / growthSpeed) + 1) == 0)) {
+                if (net.neoforged.neoforge.common.CommonHooks.onCropsGrowPre(pLevel, pPos, pState, pRandom.nextInt((int)(25.0F / growthSpeed) + 1) == 0)) {
                     if(currentAge == FIRST_STAGE_MAX_AGE) {
                         if(pLevel.getBlockState(pPos.above(1)).is(Blocks.AIR)) {
                             pLevel.setBlock(pPos.above(1), this.getStateForAge(currentAge + 1), 2);
@@ -62,7 +63,7 @@ public class CornCropBlock extends CropBlock {
                         pLevel.setBlock(pPos, this.getStateForAge(currentAge + 1), 2);
                     }
 
-                    net.minecraftforge.common.ForgeHooks.onCropsGrowPost(pLevel, pPos, pState);
+                    net.neoforged.neoforge.common.CommonHooks.onCropsGrowPost(pLevel, pPos, pState);
                 }
             }
         }

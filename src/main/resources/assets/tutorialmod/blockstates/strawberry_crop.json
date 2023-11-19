@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "tutorialmod:block/strawberry_stage0"
+    },
+    "age=1": {
+      "model": "tutorialmod:block/strawberry_stage1"
+    },
+    "age=2": {
+      "model": "tutorialmod:block/strawberry_stage2"
+    },
+    "age=3": {
+      "model": "tutorialmod:block/strawberry_stage3"
+    },
+    "age=4": {
+      "model": "tutorialmod:block/strawberry_stage4"
+    },
+    "age=5": {
+      "model": "tutorialmod:block/strawberry_stage5"
+    }
+  }
+}

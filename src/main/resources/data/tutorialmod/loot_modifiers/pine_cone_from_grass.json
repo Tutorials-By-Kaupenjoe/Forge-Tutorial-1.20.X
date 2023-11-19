@@ -1,0 +1,14 @@
+{
+  "type": "tutorialmod:add_item",
+  "conditions": [
+    {
+      "block": "minecraft:grass",
+      "condition": "minecraft:block_state_property"
+    },
+    {
+      "chance": 0.35,
+      "condition": "minecraft:random_chance"
+    }
+  ],
+  "item": "tutorialmod:pine_cone"
+}
