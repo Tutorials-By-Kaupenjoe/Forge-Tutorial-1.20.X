@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "tutorialmod:block/sapphire_pressure_plate"
+    },
+    "powered=true": {
+      "model": "tutorialmod:block/sapphire_pressure_plate_down"
+    }
+  }
+}

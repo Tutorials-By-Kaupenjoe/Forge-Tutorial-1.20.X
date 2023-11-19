@@ -7,11 +7,12 @@ import net.kaupenjoe.tutorialmod.entity.custom.ModBoatEntity;
 import net.kaupenjoe.tutorialmod.item.custom.*;
 import net.kaupenjoe.tutorialmod.sound.ModSounds;
 import net.minecraft.world.item.*;
-import net.minecraftforge.common.ForgeSpawnEggItem;
-import net.minecraftforge.eventbus.api.IEventBus;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.RegistryObject;
+import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.ForgeRegistries;
+import net.neoforged.neoforge.registries.RegistryObject;
+
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -67,7 +68,7 @@ public class ModItems {
             () -> new RecordItem(6, ModSounds.BAR_BRAWL, new Item.Properties().stacksTo(1), 2440));
 
     public static final RegistryObject<Item> RHINO_SPANW_EGG = ITEMS.register("rhino_spawn_egg",
-            () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c5, new Item.Properties()));
+            () -> new DeferredSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c5, new Item.Properties()));
 
     public static final RegistryObject<Item> PINE_SIGN = ITEMS.register("pine_sign",
             () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.PINE_SIGN.get(), ModBlocks.PINE_WALL_SIGN.get()));

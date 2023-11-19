@@ -1,6 +1,5 @@
 package net.kaupenjoe.tutorialmod.block.entity;
 
-import net.kaupenjoe.tutorialmod.item.ModItems;
 import net.kaupenjoe.tutorialmod.recipe.GemPolishingRecipe;
 import net.kaupenjoe.tutorialmod.screen.GemPolishingStationMenu;
 import net.minecraft.core.BlockPos;
@@ -10,7 +9,6 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
-import net.minecraft.world.Container;
 import net.minecraft.world.Containers;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.SimpleContainer;
@@ -20,15 +18,15 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.inventory.ContainerData;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.RecipeHolder;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
-import net.minecraftforge.common.capabilities.Capability;
-import net.minecraftforge.common.capabilities.ForgeCapabilities;
-import net.minecraftforge.common.util.LazyOptional;
-import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.items.ItemStackHandler;
+import net.neoforged.neoforge.common.capabilities.Capabilities;
+import net.neoforged.neoforge.common.capabilities.Capability;
+import net.neoforged.neoforge.common.util.LazyOptional;
+import net.neoforged.neoforge.items.IItemHandler;
+import net.neoforged.neoforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -91,7 +89,7 @@ public class GemPolishingStationBlockEntity extends BlockEntity implements MenuP
 
     @Override
     public @NotNull <T> LazyOptional<T> getCapability(@NotNull Capability<T> cap, @Nullable Direction side) {
-        if(cap == ForgeCapabilities.ITEM_HANDLER) {
+        if(cap == Capabilities.ITEM_HANDLER) {
             return lazyItemHandler.cast();
         }
 
@@ -163,8 +161,8 @@ public class GemPolishingStationBlockEntity extends BlockEntity implements MenuP
     }
 
     private void craftItem() {
-        Optional<GemPolishingRecipe> recipe = getCurrentRecipe();
-        ItemStack result = recipe.get().getResultItem(null);
+        Optional<RecipeHolder<GemPolishingRecipe>> recipe = getCurrentRecipe();
+        ItemStack result = recipe.get().value().getResultItem(null);
 
         this.itemHandler.extractItem(INPUT_SLOT, 1, false);
 
@@ -173,17 +171,17 @@ public class GemPolishingStationBlockEntity extends BlockEntity implements MenuP
     }
 
     private boolean hasRecipe() {
-        Optional<GemPolishingRecipe> recipe = getCurrentRecipe();
+        Optional<RecipeHolder<GemPolishingRecipe>> recipe = getCurrentRecipe();
 
         if(recipe.isEmpty()) {
             return false;
         }
-        ItemStack result = recipe.get().getResultItem(getLevel().registryAccess());
+        ItemStack result = recipe.get().value().getResultItem(getLevel().registryAccess());
 
         return canInsertAmountIntoOutputSlot(result.getCount()) && canInsertItemIntoOutputSlot(result.getItem());
     }
 
-    private Optional<GemPolishingRecipe> getCurrentRecipe() {
+    private Optional<RecipeHolder<GemPolishingRecipe>> getCurrentRecipe() {
         SimpleContainer inventory = new SimpleContainer(this.itemHandler.getSlots());
         for(int i = 0; i < itemHandler.getSlots(); i++) {
             inventory.setItem(i, this.itemHandler.getStackInSlot(i));
