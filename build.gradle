@@ -9,7 +9,7 @@ plugins {
 
 version = mod_version
 group = mod_group_id
-
+d
 base {
     archivesName = mod_id
 }
